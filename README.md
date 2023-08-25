@@ -7,10 +7,10 @@ Add the sensorcode to your alraedy set up ESPHome ESP32 + RS485 and enjoy.
 Taken from the PRO380-Mod manual:
 The PRO380-Mod can be connected for Modbus communication. The Modbus implementation used is Modbus basic
 (standard). This means the following:
--Baud rate 9600
--8 data bits
--Even parity
--1 stop bit
+Baud rate 9600
+8 data bits
+Even parity
+1 stop bit
 
 
 ![image](https://github.com/firefox159/HA-Inepro-PRO380-Mod-EN/assets/1909681/f381d220-45e3-4943-8905-0875409a08ef)
