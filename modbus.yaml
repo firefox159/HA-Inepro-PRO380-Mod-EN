@@ -7,7 +7,7 @@
   port: /dev/ttyUSB0
   stopbits: 1
   sensors:
-    - name: "L1 feszültség"
+    - name: "L1 Voltage"
       unique_id: L1V
       device_class: voltage
       state_class: measurement
@@ -20,7 +20,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "L2 feszültség"
+    - name: "L2 Voltage"
       unique_id: L2V
       device_class: voltage
       state_class: measurement
@@ -33,7 +33,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "L3 feszültség"
+    - name: "L3 Voltage"
       unique_id: L3V
       device_class: voltage
       state_class: measurement
@@ -46,7 +46,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Frekvencia"
+    - name: "Frequency"
       unique_id: Hz
       device_class: frequency
       state_class: measurement
@@ -59,7 +59,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "L1 áramerősség"
+    - name: "L1 Current"
       unique_id: L1A
       device_class: current
       state_class: measurement
@@ -72,7 +72,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "L2 áramerősség"
+    - name: "L2 Current"
       unique_id: L2A
       device_class: current
       state_class: measurement
@@ -85,7 +85,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "L3 áramerősség"
+    - name: "L3 Current"
       unique_id: L3A
       device_class: current
       state_class: measurement
@@ -98,7 +98,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Összes hatásos teljesítmény"
+    - name: "Total Active Power"
       unique_id: SZHT
       device_class: power
       state_class: measurement
@@ -111,7 +111,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Összes meddő teljesítmény"
+    - name: "Total Reactive Power"
       unique_id: SZMT
       device_class: power
       state_class: measurement
@@ -124,7 +124,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Összes látszólagos teljesítmény"
+    - name: "Total Apparent Power"
       unique_id: SZLT
       device_class: power
       state_class: measurement
@@ -137,7 +137,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Teljesítménytényező"
+    - name: "Power Factor"
       unique_id: COSFI
       device_class: power_factor
       state_class: measurement
@@ -149,7 +149,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Import hatásos energia"
+    - name: "Forward Active Energy"
       unique_id: IHE
       device_class: energy
       state_class: total_increasing
@@ -162,7 +162,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Export hatásos energia"
+    - name: "Reverse Active Energy"
       unique_id: EHE
       device_class: energy
       state_class: total_increasing
@@ -175,7 +175,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Összes meddő energia"
+    - name: "Total Reactive Energy"
       unique_id: SZME
       device_class: energy
       state_class: total_increasing
@@ -188,7 +188,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Import meddő energia"
+    - name: "Forward Reactive Energy"
       unique_id: IME
       device_class: energy
       state_class: total_increasing
@@ -201,7 +201,7 @@
       slave: 2
       scan_interval: 60
 
-    - name: "Export meddő energia"
+    - name: "Reverse Reactive Energy"
       unique_id: EME
       device_class: energy
       state_class: total_increasing
