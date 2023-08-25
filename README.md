@@ -1,14 +1,5 @@
 # HA-Inepro-PRO380-Mod
-Inepro PRO380-Mod integráció Home Assistantba
+Enables reading out the MODBUS port on your Inepro PRO380-Mod via an ESPHome master. 
 
-Beállítások:
-1. A fogyasztásmérőn:
-parity: N
-address: 2
+Add the sensorcode to your alraedy set up ESPHome ESP32 + RS485 and enjoy.
 
-2. A modbus.yaml fájt be kell másolni a /config könyvtárba
-
-3. Configuration.yaml-be:
-modbus: !include modbus.yaml
-
-4. reboot
